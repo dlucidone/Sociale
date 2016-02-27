@@ -1,0 +1,31 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.navbar-default {
+    background-color: #0084b4;
+    /*border-color: #E7E7E7 #3E76D0;*/
+    //border-color: black;
+}
+/* title */
+/*.nav.navbar-nav.navbar-right li a {
+    color: black;
+}*/
+
+.nav.navbar-nav.navbar-left li a {
+    color: black;
+}
+.navbar-custom {
+    color: black;
+    background-color: #CC3333;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+}
+.nav.navbar-nav.navbar-left li a {
+    color: black;
+}

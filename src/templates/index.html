@@ -1,0 +1,140 @@
+
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block head_title %}Welcome | {% endblock %}
+
+
+{% block content %}
+
+  
+<!-- NAVBAR
+================================================== -->
+  <body>
+    
+      
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+           {% load static %}<img src="{% static "img/bg-header.jpg" %}" /> 
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sociale</h1>
+              <p>A Website that let you view Instantaneous Social Feeds in One Place.</p>
+              <p><a class="btn btn-lg btn-default" href="/accounts/register" role="button">Sign Up</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="item">
+          {% load static %}<img src="{% static "img/bg-header.jpg" %}" />
+            <div class="carousel-caption">
+              <h1>Sociale</h1>
+              <p>A Website that let you view Instantaneous Social Feeds in One Place.</p>
+              <p><a class="btn btn-lg btn-default" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Sociale</h1>
+              <p>A Website that let you view Instantaneous Social Feeds in One Place.</p>
+              <p><a class="btn btn-lg btn-default" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <! <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+        <!-- span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <! <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+      <!--   <span class="sr-only">Next</span>
+      </a>  -->
+    </div><!-- /.carousel -->
+
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Facebook<span class="text-muted"></span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+         {% load static %} <img class="featurette-image img-responsive center-block" src="{% static "img/fb.jpg" %}" />
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Twitter<span class="text-muted"></span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          {% load static %}<img class="featurette-image img-responsive center-block" src="{% static "img/twitter.jpg" %}"/>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Instagram<span class="text-muted"></span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          {% load static %}<img class="featurette-image img-responsive center-block" src="{% static "img/instagram.jpg" %}" />
+        </div>
+      </div>
+
+    
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Google+<span class="text-muted"></span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          {% load static %} <img class="featurette-image img-responsive center-block" src="{% static "img/google.jpg" %}" />
+        </div>
+      </div>
+      
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+
+{% endblock %}

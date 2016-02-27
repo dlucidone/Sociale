@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "src"
+		},
+		{
+			"path": "static_in_env"
+		},
+		{
+			"path": "connector"
+		}
+	]
+}

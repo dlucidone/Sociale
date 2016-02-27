@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://www.instagram.com/developer/clients/register/ -->
+<html lang="en" class="js logged-in wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n6-active wf-proximanova-n7-active wf-active"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+    <script async="" src="./Register a Client • Instagram Developer Documentation_files/fbevents.js"></script><script type="text/javascript">window._timings = {"domLoading": Date.now()}</script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Register a Client • Instagram Developer Documentation</title>
+
+        <script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+      families: ['proxima-nova:n3,n4,n6,n7'],
+    }
+  };
+</script>
+<script src="./Register a Client • Instagram Developer Documentation_files/c0456c81549b.js" type="text/javascript" async=""></script>
+
+<style type="text/css">
+  /* @license
+   * MyFonts Webfont Build ID 2164953, 2012-03-23T23:06:30-0400
+   *
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are
+   * explicitly restricted from using the Licensed Webfonts(s).
+   *
+   * You may obtain a valid license at the URLs below.
+   *
+   *
+   * Webfont: Proxima Nova Light by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Regular by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Semibold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Bold by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+   * Licensed pageviews: unlimited
+   *
+   * Webfont: Proxima Nova Italic by Mark Simonson
+   * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+   * Licensed pageviews: unlimited
+   *
+   *
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=2164953
+   * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+   *
+   * (c) 2012 Bitstream Inc
+   */
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.eot/115b1f7f9c04.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.woff/618250d25a4d.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.ttf/646346e03084.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-bold-webfont.svg/e55a9d6051e8.svg#ProximaNovaBold') format("svg");
+    font-weight: bold;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.eot/1cbb869da891.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.woff/b1cf049474c9.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.ttf/3adb020ceae3.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-boldit-webfont.svg/29948a2d3c58.svg#ProximaNovaBoldItalic') format("svg");
+    font-weight: bold;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.eot/12af77715cee.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.woff/a9a9773b8e29.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.ttf/99e19808976a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-reg-webfont.svg/c33d2fd56309.svg#ProximaNovaRegular') format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.eot/1bbbd1312b0d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.woff/9e306befca91.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.ttf/4a8663684135.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-regit-webfont.svg/876278d4b189.svg#ProximaNovaRegularItalic') format("svg");
+    font-weight: normal;
+    font-style: italic; }
+
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.eot/5016edf79e1d.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.woff/615c1b06d8fa.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.ttf/2973bd483f7a.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-sbold-webfont.svg/868597833e49.svg#ProximaNovaSemibold') format("svg");
+    font-weight: 600;
+    font-style: normal; }
+</style>
+
+  <style type="text/css">
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot');
+    src: url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.eot/63c84728610f.eot?#iefix') format("embedded-opentype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.woff/66bbe029f180.woff') format("woff"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.ttf/eb408516399b.ttf') format("truetype"),
+      url(' //instagramstatic-a.akamaihd.net/h1/webfonts/proximanova-light-webfont.svg/858f6a9b7ef3.svg#ProximaNovaLight') format("svg");
+    font-weight: 300;
+    font-style: normal; }
+</style>
+
+
+        
+    
+        <meta name="robots" content="noimageindex">
+        
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+        
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+
+        <script type="text/javascript">
+        (function() {
+            var docElement = document.documentElement;
+            var classRE = new RegExp('(^|\\s)no-js(\\s|$)');
+            var className = docElement.className;
+            docElement.className = className.replace(classRE, '$1js$2');
+        })();
+        </script>
+
+        
+    
+    
+        <link rel="Shortcut Icon" type="image/x-icon" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.ico/7cdab0872b15.ico"><link rel="mask-icon" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/favicon.svg/dfde15ef1533.svg" color="#125688">
+    
+    
+        <link rel="apple-touch-icon-precomposed" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-72x72-precomposed.png/3f5e04d85488.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-114x114-precomposed.png/29d68fc587d7.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://instagramstatic-a.akamaihd.net/h1/images/ico/apple-touch-icon-144x144-precomposed.png/52fcc0fc09e4.png">
+    
+    
+    
+    <link href="./Register a Client • Instagram Developer Documentation_files/f474e71e3e15.css" type="text/css" rel="stylesheet">
+
+    <link href="./Register a Client • Instagram Developer Documentation_files/7442648f7e5e.css" type="text/css" rel="stylesheet">
+    <link href="./Register a Client • Instagram Developer Documentation_files/e07a37d792f5.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="./Register a Client • Instagram Developer Documentation_files/bootstrap-tokenfield.min.css">
+
+    
+    
+
+    
+    <script src="./Register a Client • Instagram Developer Documentation_files/213ba890e802.js" type="text/javascript"></script>
+    <script src="./Register a Client • Instagram Developer Documentation_files/57733d51aed5.js" type="text/javascript"></script>
+    <script src="./Register a Client • Instagram Developer Documentation_files/90e6f4ddbee3.js" type="text/javascript"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#top_bar_right .top-bar-actions').prepend("<li class='manage-clients link-settings'><a class='link-active' href='/developer/clients/manage/'>Manage Clients<i></i></a></li>");
+    
+    $('#top_bar_right .top-bar-actions').prepend("<li class='testing-clients link-settings'><a class='' href='/developer/clients/sandbox_invites/'>Sandbox Invites<i></i></a></li>");
+    
+  });
+</script>
+
+    <script src="./Register a Client • Instagram Developer Documentation_files/bed31fb95961.js" type="text/javascript"></script>
+    <script src="./Register a Client • Instagram Developer Documentation_files/bootstrap-tokenfield.min.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript" charset="UTF-8" src="./Register a Client • Instagram Developer Documentation_files/Oz3oIBBJV1jyVJ-wA1jFwCwwanNPU8vLgzIeZ4g6NLg.js"></script><style type="text/css">
+
+.recaptcha_is_showing_audio .recaptcha_only_if_image,.recaptcha_isnot_showing_audio .recaptcha_only_if_audio,.recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol,.recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol{display:none !important}</style><script type="text/javascript" src="./Register a Client • Instagram Developer Documentation_files/reload"></script></head>
+    <body class="sidebar-page">
+        
+    
+        <div class="root">
+        
+            <div class="page">
+                
+                    
+                        <header class="top-bar top-bar-new">
+    <div class="top-bar-wrapper">
+        <div class="logo"><a href="https://www.instagram.com/">Instagram</a></div>
+
+        <div class="top-bar-left">
+            <ul class="top-bar-actions">
+                <li>
+                    <a class="top-bar-home" href="https://www.instagram.com/" label="Home"><i></i></a>
+                </li>
+            </ul>
+        </div>
+
+        
+            <div class="top-bar-right account-state" id="top_bar_right">
+                <ul class="top-bar-actions"><li class="testing-clients link-settings"><a class="" href="https://www.instagram.com/developer/clients/sandbox_invites/">Sandbox Invites<i></i></a></li><li class="manage-clients link-settings"><a class="link-active" href="https://www.instagram.com/developer/clients/manage/">Manage Clients<i></i></a></li>
+                    
+                    
+                    <li id="link_profile" class="link-profile has-dropdown">
+                        <a href="javascript:;">
+                            
+    <span class="img img-outset current-user-avatar" style="background-image: url(https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xtf1/t51.2885-19/11117116_348956778631755_326561823_a.jpg);">
+        <img src="./Register a Client • Instagram Developer Documentation_files/11117116_348956778631755_326561823_a.jpg" onerror="imageFallback(this);" alt="">
+        <b></b>
+    </span>
+
+                            <strong>dlucidone</strong>
+                        </a>
+
+                        <div class="dropdown">
+                            <i></i>
+
+                            <ul role="navigation">
+                                <li><a href="https://www.instagram.com/dlucidone/">View Profile</a></li>
+                                <li><a href="https://www.instagram.com/accounts/edit/">Edit Profile</a></li>
+                                <li><a href="https://www.instagram.com/accounts/badges/">Badges</a></li>
+                                <li><span id="rC0"><a href="https://www.instagram.com/accounts/logout/" data-reactid=".0">Log Out</a></span></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+    </div>
+</header> <!-- .top-bar -->
+                    
+                
+
+                
+    <div class="sidebar">
+        <div class="wrapper">
+            <nav class="sidebar-nav">
+                <div class="sidebar-content">
+                
+    
+        
+
+<form class="quick-search" action="https://www.instagram.com/developer/search/" method="GET">
+    <a href="https://www.instagram.com/developer/clients/register/#" class="disclosure-down"></a>
+    <input name="q" type="text" placeholder="Search Documentation">
+    <input type="submit">
+</form>
+
+<ul>
+    <li>
+        <a href="https://www.instagram.com/developer/">
+            
+            Overview
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/authentication/">
+            
+            Authentication
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/authorization/">
+            
+            Login Permissions
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/review/">
+            
+            Permissions Review
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/sandbox/">
+            
+            Sandbox Mode
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/secure-api-requests/">
+            
+            Secure Requests
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/endpoints/">
+            
+            Endpoints
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+        
+    
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/limits/">
+            
+            Rate Limits
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/subscriptions/">
+            
+            Subscriptions
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/embedding/">
+            
+            Embedding
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/mobile-sharing/">
+            
+            Mobile Sharing
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+        
+    
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/libraries/">
+            
+            Libraries
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/support/">
+            
+            Support
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/developer/changelog/">
+            
+            Changelog
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+    <li>
+        <a href="https://www.instagram.com/about/legal/terms/api/">
+            
+            Platform Policy
+            
+            <i class="disclosure"></i>
+            
+        </a>
+        
+    </li>
+</ul>
+    
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <section class="nav-page-content" role="main">
+                
+
+    <header>
+        <h1>Register new Client ID</h1>
+    </header>
+
+    
+
+<div id="alerts" class="alerts">
+    
+    
+    
+    <p class="alert-red">You must enter an absolute URI that starts with http:// or https://</p>
+    
+    <p class="alert-red">Submission error: please fill out all required fields.</p>
+    
+    
+    
+</div>
+
+
+
+    <form action="" class="adjacent" method="POST" accept-charset="utf-8">
+        <input type="hidden" name="csrfmiddlewaretoken" value="bf0f2c764468b55d350ef41d38042758">
+
+        <div class="nav-tabs-container">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="https://www.instagram.com/developer/clients/register/#details" data-toggle="tab">Details</a></li>
+            <li><a href="https://www.instagram.com/developer/clients/register/#security" data-toggle="tab">Security</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="details">
+                
+<p><label for="id_name">Application Name</label><input type="text" name="name" value="sociale" id="id_name"> <span class="helptext">Do not use <b>Instagram</b>, <b>IG</b>, <b>insta</b> or <b>gram</b>
+in your app name. Make sure to adhere to the
+<a href="http://instagram.com/about/legal/terms/api/" target="_blank">API Terms of Use</a>
+and
+<a href="https://www.instagram-brand.com/" target="_blank">Brand Guidelines</a>
+.</span></p>
+                
+<p><label for="id_description">Description</label><textarea id="id_description" rows="5" cols="40" name="description">A website that gives you instantaneous feed </textarea></p>
+                
+<p><label for="id_company_name">Company Name</label><input type="text" name="company_name" value="Lumous House" id="id_company_name"></p>
+                <ul class="errorlist"><li>You must enter an absolute URI that starts with http:// or https://</li></ul>
+<p><label for="id_website_url">Website URL</label><input type="text" name="website_url" value="0.0.0.0:8000" id="id_website_url"></p>
+                <ul class="errorlist"><li>This field is required.</li></ul>
+<p><label for="id_redirect_uri-tokenfield">Valid redirect URIs</label><div class="tokenfield form-control"><textarea id="id_redirect_uri" rows="10" placeholder="Press Enter to confirm." cols="40" name="redirect_uri" tabindex="-1" style="position: absolute; left: -10000px;"></textarea><input type="text" tabindex="-1" style="position: absolute; left: -10000px;"><input type="text" class="token-input" autocomplete="off" placeholder="Press Enter to confirm." id="id_redirect_uri-tokenfield" tabindex="0" style="min-width: 60px; width: 470px;"></div> <span class="helptext">The redirect_uri specifies where we redirect users after they have chosen whether or not to authenticate your application.</span></p>
+                
+<p><label for="id_privacy_policy_url">Privacy Policy URL</label><input type="text" name="privacy_policy_url" id="id_privacy_policy_url"></p>
+                
+<p><label for="id_contact_email">Contact email</label><input type="text" name="contact_email" value="jackravi227@gmail.com" id="id_contact_email"> <span class="helptext">An email that Instagram can use to get in touch with you.             Please specify a valid email address to be notified of important information about your app.</span></p>
+            </div>
+            <div class="tab-pane" id="security">
+                
+<p><input checked="checked" type="checkbox" name="disable_oauth_implicit" value="on" id="id_disable_oauth_implicit">&nbsp;&nbsp;<label for="id_disable_oauth_implicit">Disable implicit OAuth</label> <span class="helptext">Disable the Client-Side (Implicit) OAuth flow for web apps. If you check this option, 
+Instagram will better protect your application by only allowing authorization requests that use the 
+Server-Side (Explicit) OAuth flow. The Server-Side flow is considered more secure. See the 
+<a href="https://www.instagram.com/developer/authentication/" target="_blank">Authentication</a> documentation for details.</span></p>
+                
+<p><input type="checkbox" name="enforce_signed_requests" id="id_enforce_signed_requests">&nbsp;&nbsp;<label for="id_enforce_signed_requests">Enforce signed requests</label> <span class="helptext">Requires the use of your Client Secret to sign all API requests. 
+Use this option to instruct Instagram to check requests for a signature passed in the 'sig' parameter and 
+validate it. This signature is a SHA256 hash of the endpoint and key/value pairs of all parameters for 
+the request, using the Client Secret. If this option is set, calls with mismatched signatures will fail. 
+This technique helps protect your OAuth Client from impersonation attempts from malicious developers. 
+Only enable this option for server-to-server calls. See the <a href="https://www.instagram.com/developer/secure-api-requests/" target="_blank">Secure API Requests</a> documentation for details.</span></p>
+            </div>
+          </div>
+        </div>
+
+        
+            
+<span><script type="text/javascript">
+var RecaptchaOptions = {
+    theme : 'custom',
+    custom_theme_widget : 'recaptcha_widget'
+};
+</script>
+
+<div id="recaptcha_widget" class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio">
+    <div id="recaptcha_image" style="width: 300px; height: 57px;"><img id="recaptcha_challenge_image" alt="reCAPTCHA challenge image" height="57" width="300" src="./Register a Client • Instagram Developer Documentation_files/image"></div>
+    <div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div>
+
+    <div class="rc_content">
+        <img id="recaptcha_logo" alt="" width="71" height="36" src="./Register a Client • Instagram Developer Documentation_files/logo.png">
+        <div id="recaptcha_btn_container">
+
+            <a href="javascript:Recaptcha.reload()" id="recaptcha_reload_btn" title="Get a new challenge"><img id="recaptcha_reload" width="25" height="18" alt="Get a new challenge" src="./Register a Client • Instagram Developer Documentation_files/refresh.png"></a>
+            <a href="javascript:Recaptcha.switch_type(&#39;audio&#39;)" id="recaptcha_switch_audio_btn" class="recaptcha_only_if_image" title="Get an audio challenge"><img id="recaptcha_switch_audio" width="25" height="15" alt="Get an audio challenge" src="./Register a Client • Instagram Developer Documentation_files/audio.png"></a>
+            <a href="javascript:Recaptcha.switch_type(&#39;image&#39;)" id="recaptcha_switch_img_btn" class="recaptcha_only_if_audio" title="Get a visual challenge"><img id="recaptcha_switch_img" width="25" height="15" alt="Get a visual challenge" src="./Register a Client • Instagram Developer Documentation_files/text.png"></a>
+            <a href="javascript:Recaptcha.showhelp()" id="recaptcha_whatsthis_btn" title="Help"><img id="recaptcha_whatsthis" width="25" height="16" src="./Register a Client • Instagram Developer Documentation_files/help.png" alt="Help"></a>
+        </div>
+
+        <span class="recaptcha_only_if_image">Type the words above:</span>
+        <span class="recaptcha_only_if_audio">Enter the numbers you hear:</span>
+        <span id="recaptcha_challenge_field_holder" style="display: none;"><input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_Vus7MClSQnvk2ckdtxR1nCPxFHSEDEWCWmXJ0heEqkeCl8LEn3Hfp05hgf3d4sbFXYqG6HcU0ZmvAtS7WpL6cfcIHbZURkO0o7h-WR1T53OrK6RHWrAo_9yoIjdboJepgd7_xmq-5Yt7Ig4fy6i2r1t93eua0auSelVSzHZLZO49XxPAtm0k2DaaI-XHOACZXjSRLvQEd_pBTN-LuGMoDRsXbYyYafo4LnvkfAgsxOB9th77AuGYLZgApU_By87erJ4J_8XiqI1aIP2Lqezc93_YI-w27cF5-s4vOqd4Nai1_Vjq5jg"></span><input type="text" id="recaptcha_response_field" name="recaptcha_response_field" autocomplete="off">
+    </div>
+</div>
+
+<script type="text/javascript" src="./Register a Client • Instagram Developer Documentation_files/challenge"></script><script type="text/javascript" src="./Register a Client • Instagram Developer Documentation_files/recaptcha.js"></script>
+
+<noscript>
+  &lt;iframe src="https://www.google.com/recaptcha/api/noscript?k=6LfdRhITAAAAADt_--DAA2mAWS5KonHRG2VvyaWU" height="300" width="500" frameborder="0"&gt;&lt;/iframe&gt;&lt;br /&gt;
+  &lt;textarea name="recaptcha_challenge_field" rows="3" cols="40"&gt;&lt;/textarea&gt;
+  &lt;input type='hidden' name='recaptcha_response_field' value='manual_challenge' /&gt;
+</noscript>
+</span>
+        
+
+        <div class="form-actions">
+            <p>
+                <input type="submit" value="Register" class="button-green">
+                <a href="https://www.instagram.com/developer/clients/manage/" class="button">Cancel</a>
+            </p>
+        </div>
+    </form>
+
+    <script>
+        $('#id_redirect_uri').tokenfield({delimiter:' '});
+    </script>
+
+
+            </section>
+        </div> <!-- .main -->
+    </div> <!-- .main -->
+
+
+            </div> <!-- .page -->
+
+            
+            <footer class="page-footer" role="contentinfo">
+                <div class="wrapper">
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.instagram.com/about/us/">About us</a></li>
+                            <li><a href="http://help.instagram.com/">Support</a></li>
+                            <li><a href="http://blog.instagram.com/">Blog</a></li>
+                            <li><a href="http://instagram.com/press/">Press</a></li>
+                            <li><a href="https://www.instagram.com/developer/">API</a></li>
+                            <li><a href="https://www.instagram.com/about/jobs/">Jobs</a></li>
+                            <li><a href="https://www.instagram.com/legal/privacy/">Privacy</a></li>
+                            <li><a href="https://www.instagram.com/legal/terms/">Terms</a></li>
+                        </ul>
+                    </nav>
+
+                    <p class="copyright">© 2016 Instagram</p>
+                </div>
+            </footer>
+            
+        
+        <div id="reactModalMountPoint"></div>
+    </div><span style="position:absolute; top:-999px; left:0; white-space:pre;"></span> <!-- .root -->
+    
+    
+
+        
+    
+<script type="text/javascript">window._sharedData = {"country_code":"IN","language_code":"en","gatekeepers":{"cpp":true,"rhp":true,"addpp":true,"sfbf":true},"static_root":"\/\/instagramstatic-a.akamaihd.net\/bluebar\/b370176","platform":"web","hostname":"www.instagram.com","entry_data":{"ReactComponent":[{"reactRoot":".rRrC0","componentName":null,"moduleName":"lib\/ui\/common\/FormLink","containerID":"rC0","props":{"text":"Log Out","href":"\/accounts\/logout\/"}}]},"qe":{"nav":{"p":{},"g":""},"su":{"p":{"enabled":"true"},"g":"test"},"discovery":{"p":{},"g":""}},"display_properties_server_guess":{"viewport_width":360,"pixel_ratio":1.5},"config":{"viewer":{"username":"dlucidone","has_profile_pic":true,"profile_pic_url":"https:\/\/igcdn-photos-d-a.akamaihd.net\/hphotos-ak-xtf1\/t51.2885-19\/11117116_348956778631755_326561823_a.jpg","full_name":"Ravi","id":"1631961636","biography":"Screwin Engineering, Netizen, Love Futbol with Guitar ( I'm BadAss )","external_url":"http:\/\/dlucidone.wordpress.com"},"csrf_token":"bf0f2c764468b55d350ef41d38042758"},"environment_switcher_visible_server_guess":true};</script>
+<script src="./Register a Client • Instagram Developer Documentation_files/f3f0da855d83.js" type="text/javascript"></script>
+<script src="./Register a Client • Instagram Developer Documentation_files/81acceb11ba1.js" type="text/javascript"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425767024389221');
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    
+<iframe src="./Register a Client • Instagram Developer Documentation_files/saved_resource.html" style="height: 0px; width: 0px; visibility: hidden; border: none; display: none;">This frame prevents back/forward cache problems in Safari.</iframe></body></html>
